@@ -29,4 +29,4 @@
 
  }
 
- module.exports = Database.open(__dirname + '/database.sqlite').then(execute).then()
+ module.exports = Database.open(__dirname + '/database.sqlite').then(execute)
